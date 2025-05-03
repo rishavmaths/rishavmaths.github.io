@@ -1,61 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>My Personal Website</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rishav | Researcher, Educator, Developer</title>
   <style>
     body {
-      font-family: sans-serif;
+      font-family: 'Segoe UI', sans-serif;
+      background: #fefefe;
+      color: #333;
       max-width: 800px;
       margin: auto;
       padding: 20px;
-      background-color: #f9f9f9;
+      line-height: 1.6;
     }
     h1, h2 {
-      color: #333;
+      color: #2c3e50;
     }
     nav a {
       margin-right: 15px;
       text-decoration: none;
-      color: #007BFF;
+      color: #0077cc;
     }
-    nav {
-      margin-bottom: 20px;
+    nav a:hover {
+      text-decoration: underline;
     }
     footer {
-      margin-top: 40px;
+      margin-top: 50px;
       font-size: 0.9em;
+      text-align: center;
       color: #666;
+    }
+    code {
+      background: #f4f4f4;
+      padding: 2px 4px;
+      border-radius: 4px;
     }
   </style>
 </head>
 <body>
-  <h1>Welcome to My Personal Website</h1>
-
+  <h1>Hi, I'm Rishav</h1>
   <nav>
-    <a href="#">Home</a>
-    <a href="#">About</a>
-    <a href="#">Notes</a>
-    <a href="#">Code</a>
-    <a href="#">Contact</a>
+    <a href="#about">About</a>
+    <a href="#research">Research</a>
+    <a href="#projects">Projects</a>
+    <a href="#notes">Notes</a>
+    <a href="#contact">Contact</a>
   </nav>
 
-  <p>Hello! I'm [Your Name]. This is a simple website where I share notes, code snippets, and thoughts on topics I find interesting.</p>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I'm a PhD researcher in Applied Mathematics at an institute in India, with a deep interest in computational methods, fluid dynamics, and machine learning. I teach courses in R and Python, build educational tools, and write about numerical methods, PINNs, and more.
+    </p>
+  </section>
 
-  <h2>About Me</h2>
-  <p>I am a [student/researcher/developer] interested in [your interests].</p>
+  <section id="research">
+    <h2>Research</h2>
+    <p>
+      My current work involves <strong>Physics-Informed Neural Networks (PINNs)</strong>, flow through anisotropic porous media, entropy generation minimization, and heat transfer modeling using FVM and deep learning.
+    </p>
+    <p>
+      I’ve also reviewed research in fluid-structure interaction, and I explore hybrid modeling using neural networks for PDEs.
+    </p>
+  </section>
 
-  <h2>Notes</h2>
-  <p>Here you'll find study notes, summaries, and tutorials on topics like math, programming, or physics.</p>
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>Calcumate</strong>: An educational platform with tools for algebra, calculus, and numerical analysis. Includes quizzes, calculators, and premium content.</li>
+      <li><strong>PINNs Research</strong>: Modeling rotating Darcy-Brinkman-Forchheimer flow using PyTorch and TensorFlow.</li>
+      <li><strong>ML + Differential Equations Book</strong>: Currently authoring a book combining classical ODE/PDE techniques with deep learning approaches.</li>
+    </ul>
+  </section>
 
-  <h2>Code</h2>
-  <p>I share useful code snippets, small projects, and GitHub links here.</p>
+  <section id="notes">
+    <h2>Blog / Notes</h2>
+    <p>Coming soon: posts on numerical methods, Python tutorials, PINN implementation guides, and LaTeX resources for students.</p>
+  </section>
 
-  <h2>Contact</h2>
-  <p>You can reach me at: <a href="mailto:your@email.com">your@email.com</a></p>
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:rishavmaths@example.com">rishavmaths@example.com</a></p>
+    <p>GitHub: <a href="https://github.com/rishavmaths" target="_blank">rishavmaths</a></p>
+    <p>Google Scholar / ResearchGate links coming soon.</p>
+  </section>
 
   <footer>
-    &copy; 2025 [Your Name]. All rights reserved.
+    &copy; 2025 Rishav. All rights reserved.
   </footer>
 </body>
 </html>

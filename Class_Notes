@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta name="description" content="Class notes by Rishav Aich – Explore lecture notes and academic resources related to CFD, Heat Transfer, and Applied Mathematics.">
+  <meta name="robots" content="index, follow">
+
+  <meta property="og:title" content="Class Notes | Rishav Aich" />
+  <meta property="og:description" content="Access class notes, topic-wise material, and hand-written lecture resources from Rishav Aich." />
+  <meta property="og:image" content="https://rishavmaths.github.io/Rishav_pass.jpg" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://rishavmaths.github.io/classnotes.html" />
+
+  <title>Class Notes | Rishav Aich</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header-section text-center py-5 bg-dark text-white">
+    <div class="container">
+      <h1 class="fw-bold">Class Notes</h1>
+      <p class="lead">Lecture Resources | Notes | Academic Material</p>
+    </div>
+  </header>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-semibold" href="index.html">CV</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="publications.html">Publications</a></li>
+          <li class="nav-item"><a class="nav-link" href="teaching.html">Teaching</a></li>
+          <li class="nav-item"><a class="nav-link" href="skills.html">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="misc.html">Miscellaneous</a></li>
+          <li class="nav-item"><a class="nav-link active fw-bold" href="classnotes.html">Class Notes</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="container my-5">
+    <section>
+      <h2 class="section-title mb-4">Available Notes</h2>
+
+      <div class="list-group">
+        <a href="notes/heat_transfer_notes.pdf" class="list-group-item list-group-item-action" target="_blank">
+          🔥 Heat Transfer – Fundamentals and Applications
+        </a>
+        <a href="notes/cfd_basics.pdf" class="list-group-item list-group-item-action" target="_blank">
+          🌬️ Introduction to Computational Fluid Dynamics (CFD)
+        </a>
+        <a href="notes/sciML_intro.pdf" class="list-group-item list-group-item-action" target="_blank">
+          🤖 Scientific Machine Learning – A Primer
+        </a>
+        <a href="notes/applied_math_review.pdf" class="list-group-item list-group-item-action" target="_blank">
+          📘 Applied Mathematics Refresher
+        </a>
+        <!-- Add more items as needed -->
+      </div>
+
+      <p class="text-muted mt-3">Note: PDFs open in a new tab. Content is periodically updated.</p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer bg-dark text-white text-center py-3 mt-5">
+    <p class="mb-0">&copy; 2025 Rishav Aich. All rights reserved.</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
